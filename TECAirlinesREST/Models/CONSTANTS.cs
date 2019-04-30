@@ -27,7 +27,7 @@ namespace TECAirlinesREST.Models
         public const string LIST_OF_FLIGHTS = "LIST_OF_FLIGHTS";
         public const string STARTS = "Starts";
         public const string ENDS = "Ends";
-        public const string TRIP = "TRIP";
+        public const string TRIP = "TRIPS";
         public const string TRIP_ID = "Trip_ID";
         public const string STARTS_AIRPORT_CODE = "Starts_Airport_Code";
         public const string STARTS_CITY_NAME = "Starts_City_Name";
