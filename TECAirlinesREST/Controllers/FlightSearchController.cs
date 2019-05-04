@@ -11,9 +11,7 @@ using TECAirlinesREST.Models;
 namespace TECAirlinesREST.Controllers
 {
     public class FlightSearchController : ApiController
-    {
-    
-
+    { 
         // GET: api/FlightSearch/5
         public string Get([FromBody]string value)
         {
@@ -27,10 +25,11 @@ namespace TECAirlinesREST.Controllers
                     using (SqlConnection connection = new SqlConnection("Data Source=(local);Initial Catalog=AdventureWorks2014;Integrated Security=SSPI"))
                     using (SqlCommand cmd = new SqlCommand("SELECT BusinessEntityID AS ID, FirstName, MiddleName, LastName FROM Person.Person WHERE FirstName = @FirstName", connection))
                         /*{
-                         * 
-                         * AQUÍ VA EL QUERY
-                         * AQUÍ VA EL QUERY
-                         * AQUÍ VA EL QUERY
+                         
+                           AQUÍ VA EL QUERY
+                           AQUÍ VA EL QUERY
+                           AQUÍ VA EL QUERY
+                         
                             cmd.Parameters.AddWithValue("FirstName", firstName);
                             connection.Open();
                             using (var reader = cmd.ExecuteReader())

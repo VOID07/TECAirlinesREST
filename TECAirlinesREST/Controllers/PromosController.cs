@@ -21,6 +21,7 @@ namespace TECAirlinesREST.Controllers
                  * AQUÍ VA EL QUERY
                  * AQUÍ VA EL QUERY
                  * AQUÍ VA EL QUERY
+                 * 
                     cmd.Parameters.AddWithValue("FirstName", firstName);
                     connection.Open();
                     using (var reader = cmd.ExecuteReader())

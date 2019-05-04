@@ -36,5 +36,10 @@ namespace TECAirlinesREST.Models
         public const string FLIGHT_SEARCH = "FLIGHT_SEARCH";
         public const string PROMOS = "PROMOS";
         public const string GET_PROMOS = "GET_PROMOS";
+        public const string FLIGHT_TWO_WAY = "FLIGHT_SEARCH_TWOWAY";
+        public const string DATE_RANGE = "dateRange";
+        public const string TICKS = "Ticks";
+        public const string PROM_CODE = "PromCode";
+
     }
 }
